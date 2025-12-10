@@ -1,0 +1,444 @@
+File: find.py
+  Summary: def summarize_python_code(file_path, max_lines=5):
+--------------------
+File: main\java\com\milktea\app\all_files_content_from_script_dir.txt
+--------------------
+File: main\java\com\milktea\app\find.py
+  Summary: def read_files_in_directory(directory_path, output_file):
+--------------------
+File: main\java\com\milktea\app\MilkteaBackendApplication.java
+--------------------
+File: main\java\com\milktea\app\common\ApiResponse.java
+--------------------
+File: main\java\com\milktea\app\common\constant\ErrorCode.java
+--------------------
+File: main\java\com\milktea\app\common\enums\CouponType.java
+--------------------
+File: main\java\com\milktea\app\common\enums\OrderStatus.java
+--------------------
+File: main\java\com\milktea\app\common\enums\PayStatus.java
+--------------------
+File: main\java\com\milktea\app\common\enums\ShareType.java
+--------------------
+File: main\java\com\milktea\app\common\exception\BusinessException.java
+--------------------
+File: main\java\com\milktea\app\common\exception\GlobalExceptionHandler.java
+--------------------
+File: main\java\com\milktea\app\common\util\DateUtil.java
+--------------------
+File: main\java\com\milktea\app\common\util\GeoUtil.java
+--------------------
+File: main\java\com\milktea\app\common\util\PaginationUtil.java
+--------------------
+File: main\java\com\milktea\app\config\AppConfig.java
+--------------------
+File: main\java\com\milktea\app\config\TestDataInitializer.java
+--------------------
+File: main\java\com\milktea\app\config\WebSecurityConfig.java
+--------------------
+File: main\java\com\milktea\app\config\WebSocketConfig.java
+--------------------
+File: main\java\com\milktea\app\controller\AuthV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\CartV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\CategoryV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\CouponV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\FileV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\HomeV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\MemberV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\NotificationV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\OrderV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\PointV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\ProductV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\SearchV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\StoreV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\SystemV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\TestController.java
+--------------------
+File: main\java\com\milktea\app\controller\UserV1Controller.java
+--------------------
+File: main\java\com\milktea\app\controller\WelcomeController.java
+--------------------
+File: main\java\com\milktea\app\controller\websocket\OrderWebSocketHandler.java
+--------------------
+File: main\java\com\milktea\app\dto\auth\AccountLoginReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\auth\UserAuthResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\auth\WechatLoginReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\CartBatchOperationReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\CartItemAddReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\CartItemUpdateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\CartResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\CustomizationDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\cart\ToppingItemDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\category\CategoryTreeResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\coupon\CouponBatchReceiveReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\coupon\CouponListResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\coupon\CouponReceiveResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\file\FileUploadResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\home\HomePageResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\member\MemberInfoResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\notification\NotificationBatchReadReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\notification\NotificationListResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\CheckoutReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\CheckoutResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderCancelReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderCreateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderCreateResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderDetailResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderListResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderRefundApplyReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderReviewReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderStatusChangedWsDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderValidateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\OrderValidateResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\PaymentReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\PaymentResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\order\PaymentStatusResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\point\PointExchangeReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\point\PointTransactionListResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\product\ProductDetailResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\product\ProductFavoriteStatusResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\product\ProductListReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\product\ProductListResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\search\ProductSearchReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\search\ProductSearchResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\search\SearchHistoryReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\search\SearchHotKeywordsResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\search\SearchSuggestResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\store\StoreDetailResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\store\StoreNearbyReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\store\StoreNearbyResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\system\PageConfigResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\system\SystemConfigResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\GeneratePosterReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\GeneratePosterResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\ShareInfoResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\ShareRecordReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\UserAddressCreateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\UserAddressResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\UserPhoneUpdateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\UserProfileResDTO.java
+--------------------
+File: main\java\com\milktea\app\dto\user\UserProfileUpdateReqDTO.java
+--------------------
+File: main\java\com\milktea\app\entity\AllergenEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\BannerEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\CartItemCustomizationEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\CartItemEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\CategoryEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\CouponTemplateEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\FileEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\IngredientEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\MemberLevelEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\NotificationEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderItemCustomizationEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderItemEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderRefundEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderRefundImageEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderReviewEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderReviewImageEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\OrderStatusTimelineEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\PageConfigEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\PaymentEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\PointExchangeItemEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\PointTransactionEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductAllergensMapEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductCustomizationOptionEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductCustomizationTypeEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductImageEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductIngredientsMapEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductNutritionEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ProductRelatedMapEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\PromotionEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\QuickEntryEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\ReviewTagEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\SearchKeywordEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\StoreEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\StoreImageEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\StoreServiceEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\StoreTagEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\SystemConfigEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserAddressEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserCouponEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserFavoriteProductEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserFavoriteStoreEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserSearchHistoryEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\UserShareEntity.java
+--------------------
+File: main\java\com\milktea\app\entity\VerificationCodeEntity.java
+--------------------
+File: main\java\com\milktea\app\jwt\JwtAuthFilter.java
+--------------------
+File: main\java\com\milktea\app\jwt\JwtProperties.java
+--------------------
+File: main\java\com\milktea\app\jwt\JwtService.java
+--------------------
+File: main\java\com\milktea\app\repository\AllergenRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\BannerRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\CartItemCustomizationRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\CartItemRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\CategoryRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\CouponTemplateRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\FileRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\IngredientRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\MemberLevelRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\NotificationRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderItemCustomizationRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderItemRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderRefundImageRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderRefundRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderReviewImageRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderReviewRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\OrderStatusTimelineRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\PageConfigRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\PaymentRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\PointExchangeItemRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\PointTransactionRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ProductCustomizationOptionRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ProductCustomizationTypeRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ProductImageRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ProductNutritionRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ProductRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\PromotionRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\QuickEntryRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\ReviewTagRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\SearchKeywordRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\StoreImageRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\StoreRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\SystemConfigRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserAddressRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserCouponRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserFavoriteProductRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserFavoriteStoreRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserSearchHistoryRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\UserShareRepository.java
+--------------------
+File: main\java\com\milktea\app\repository\VerificationCodeRepository.java
+--------------------
+File: main\java\com\milktea\app\service\AuthService.java
+--------------------
+File: main\java\com\milktea\app\service\CartService.java
+--------------------
+File: main\java\com\milktea\app\service\CategoryService.java
+--------------------
+File: main\java\com\milktea\app\service\CouponService.java
+--------------------
+File: main\java\com\milktea\app\service\FileService.java
+--------------------
+File: main\java\com\milktea\app\service\HomeService.java
+--------------------
+File: main\java\com\milktea\app\service\MemberService.java
+--------------------
+File: main\java\com\milktea\app\service\NotificationService.java
+--------------------
+File: main\java\com\milktea\app\service\OrderService.java
+--------------------
+File: main\java\com\milktea\app\service\PointService.java
+--------------------
+File: main\java\com\milktea\app\service\ProductService.java
+--------------------
+File: main\java\com\milktea\app\service\SearchService.java
+--------------------
+File: main\java\com\milktea\app\service\StoreService.java
+--------------------
+File: main\java\com\milktea\app\service\SystemService.java
+--------------------
+File: main\java\com\milktea\app\service\UserService.java
+--------------------
+File: main\java\com\milktea\app\service\impl\AuthServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\CartServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\CategoryServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\CouponServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\FileServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\HomeServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\MemberServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\NotificationServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\OrderServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\PointServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\ProductServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\SearchServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\StoreServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\SystemServiceImpl.java
+--------------------
+File: main\java\com\milktea\app\service\impl\UserServiceImpl.java
+--------------------
+File: main\resources\application.yml
+--------------------
+File: main\resources\db\migration\V1__Initial_Schema.sql
+--------------------
+File: main\resources\static\.gitkeep
+--------------------
+File: test\java\com\milktea\app\MilkteaBackendApplicationTests.java
+--------------------
